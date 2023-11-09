@@ -7,7 +7,7 @@
 <html>
 
 <head>
-    <title>Form Request Parts</title>
+    <title>Form Request Parts saya ubah kembali yaa</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/css/select2.min.css" rel="stylesheet" />
 </head>
