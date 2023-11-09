@@ -21,7 +21,7 @@ include 'koneksi.php';
                     <th>Tipe</th>
                     <th>Merek</th>
                     <th>Jenis</th>
-                    <th>Spesifikasi</th>
+                    <!-- <th>Spesifikasi</th> -->
                     <!-- <th>Keterangan Spesifikasi</th>
                     <th>Harga Jual</th>
                     <th>Foto</th>
@@ -43,7 +43,7 @@ include 'koneksi.php';
                         echo "<td>" . $row["tipe_parts"] . "</td>";
                         echo "<td>" . $row["id_list_merek_parts"] . "</td>";
                         echo "<td>" . $row["id_list_jenis_parts"] . "</td>";
-                        echo "<td>" . $row["spesifikasi_parts"] . "</td>";
+                        // echo "<td>" . $row["spesifikasi_parts"] . "</td>";
                         // echo "<td>" . $row["ket_spesifikasi_parts"] . "</td>";
                         // echo "<td>" . $row["harga_jual_parts"] . "</td>";
                         // echo "<td><img src='uploads/{$row["foto_parts"]}' alt='Product Image' width='100'></td>";

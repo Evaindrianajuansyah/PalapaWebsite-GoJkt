@@ -24,11 +24,18 @@
                 </div>
             </div>
 
-
+        
             <div class="col-md-6">
                 <div class="form-group">
                     <label for="tipe_parts">Tipe :</label>
                     <input type="text" class="form-control" id="tipe_parts" name="tipe_parts" placeholder="Masukkan package parts">
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="package_parts">Package :</label>
+                    <input type="text" class="form-control" id="package_parts" name="package_parts" placeholder="Masukkan package parts">
                 </div>
             </div>
 
@@ -90,90 +97,14 @@
                 </div>
             </div>
 
-            <div class="col-md-6">
-                <div class="form-group">
-                    <label for="package_parts">Package :</label>
-                    <input type="text" class="form-control" id="package_parts" name="package_parts" placeholder="Masukkan package parts">
-                </div>
-            </div>
-
-            <div class="col-md-6">
-                <div class="form-group">
-                    <label for="tipe_lengkap_parts">Tipe Lengkap :</label>
-                    <input type="text" class="form-control" id="tipe_lengkap_parts" name="tipe_lengkap_parts" placeholder="Masukkan tipe lengkap parts">
-                </div>
-            </div>
-
-            <div class="col-md-6">
-                <div class="form-group">
-                    <label for="spesifikasi_parts">Spesifikasi :</label>
-                    <select class="form-control" id="spesifikasi_parts" name="spesifikasi_parts">
-                    <option disabled selected value="">Silahkan pilih option</option>   
-                    <option value="fet">fet</option>
-                       <option value="ic">ic</option>
-                    </select>
-                </div>
-            </div>
-
-<!-- 
-            <div class="col-md-6">
-                <div class="form-group">
-                    <label for="spesifikasi_parts"> Spesifikasi:</label>
-                    <select class="form-control" id="spesifikasi_parts" name="spesifikasi_parts">
-                        <option value="Spesifikasi 1">Spesifikasi 1</option>
-                        <option value="Spesifikasi 2">Spesifikasi 2</option>
-                        <option value="Spesifikasi 3">Spesifikasi 3</option>
-                        <option value="Spesifikasi 4">S pesifikasi 4</option>
-                        <option value="Spesifikasi 5">Spesifikasi 5</option>
-                    </select>
-                </div>
-            </div>
-
-
-            <div class="col-md-6">
-                <div class="form-group">
-                    <label for="ket_spesifikasi_parts">Keterangan Spesifikasi :</label>
-                    <input type="text" class="form-control" id="ket_spesifikasi_parts" name="ket_spesifikasi_parts" placeholder="Masukkan Spesifikasi parts">
-                </div>
-            </div> -->
-
-
-            <!-- <div class="col-md-6">
-                <div class="form-group">
-                    <label for="harga_jual_parts">Harga Jual :</label>
-                    <input type="text" class="form-control" id="harga_jual_parts" name="harga_jual_parts" placeholder="Masukkan merek parts">
-                </div>
-            </div>
-
-
-            <div class="col-md-6">
-                <div class="form-group">
-                    <label for="foto_parts">Foto :</label>
-                    <input type="file" class="form-control" id="foto_parts" name="foto_parts">
-                </div>
-            </div>
-
-            <div class="col-md-6">
-                <div class="form-group">
-                    <label for="catatan_parts">Catatan:</label>
-                    <textarea class="form-control" id="catatan_parts" name="catatan_parts" rows="5"></textarea>
-                </div>
-            </div>
-
-
-            <div class="col-md-6">
-                <div class="form-group">
-                    <label for="stock_parts">Stock :</label>
-                    <input type="text" class="form-control" id="stock_parts" name="stock_parts">
-                </div>
-            </div> -->
-
+            
+            
             <div class="col-md-6">
                 <button type="submit" name="submit" class="btn btn-primary">Submit</button>
             </div>
         </form>
         <br>
-    </div>
+    </div> 
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
