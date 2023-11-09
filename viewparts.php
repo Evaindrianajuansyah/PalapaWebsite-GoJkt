@@ -22,11 +22,11 @@ include 'koneksi.php';
                     <th>Merek</th>
                     <th>Jenis</th>
                     <th>Spesifikasi</th>
-                    <th>Keterangan Spesifikasi</th>
+                    <!-- <th>Keterangan Spesifikasi</th>
                     <th>Harga Jual</th>
                     <th>Foto</th>
                     <th>Catatan</th>
-                    <th>Stock</th>
+                    <th>Stock</th> -->
                 </tr>
             </thead>
             <tbody>
@@ -41,14 +41,14 @@ include 'koneksi.php';
                         echo "<td>" . $row["nama_parts"] . "</td>";
                         echo "<td>" . $row["package_parts"] . "</td>";
                         echo "<td>" . $row["tipe_parts"] . "</td>";
-                        echo "<td>" . $row["merek_parts"] . "</td>";
-                        echo "<td>" . $row["jenis_parts"] . "</td>";
+                        echo "<td>" . $row["id_list_merek_parts"] . "</td>";
+                        echo "<td>" . $row["id_list_jenis_parts"] . "</td>";
                         echo "<td>" . $row["spesifikasi_parts"] . "</td>";
-                        echo "<td>" . $row["ket_spesifikasi_parts"] . "</td>";
-                        echo "<td>" . $row["harga_jual_parts"] . "</td>";
-                        echo "<td><img src='uploads/{$row["foto_parts"]}' alt='Product Image' width='100'></td>";
-                        echo "<td>" . $row["catatan_parts"] . "</td>";
-                        echo "<td>" . $row["stock_parts"] . "</td>";
+                        // echo "<td>" . $row["ket_spesifikasi_parts"] . "</td>";
+                        // echo "<td>" . $row["harga_jual_parts"] . "</td>";
+                        // echo "<td><img src='uploads/{$row["foto_parts"]}' alt='Product Image' width='100'></td>";
+                        // echo "<td>" . $row["catatan_parts"] . "</td>";
+                        // echo "<td>" . $row["stock_parts"] . "</td>";
                         echo "</tr>";
                     }
                 } else {
